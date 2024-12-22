@@ -4,4 +4,5 @@ The exercises and programming projects solutions of ***C Programming A Modern Ap
 ## Checklist
 - [x] Chapter 2
 - [x] Chapter 3
-- [ ] Chapter 4
+- [x] Chapter 4
+- [ ] Chapter 5
