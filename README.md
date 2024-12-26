@@ -5,4 +5,5 @@ The exercises and programming projects solutions of ***C Programming A Modern Ap
 - [x] Chapter 2
 - [x] Chapter 3
 - [x] Chapter 4
-- [ ] Chapter 5
+- [x] Chapter 5
+- [ ] Chpater 6
