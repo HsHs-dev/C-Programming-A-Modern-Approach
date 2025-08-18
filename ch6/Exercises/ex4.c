@@ -7,6 +7,6 @@ loop bodies are the same)?
 */
 
 /*
-C is not equivalent to the other two loops, because the incrementint happens
+C is not equivalent to the other two loops, because the incrementing happens
 before entering the loop body.
 */

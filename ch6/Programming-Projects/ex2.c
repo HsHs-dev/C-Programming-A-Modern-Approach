@@ -4,7 +4,27 @@ greatest common divisor (GCD):
 Enter two integers: 12 28
 Greatest common divisor: 4
 Hint: The classic algorithm for computing the GCD, known as Euclid’s algorithm, goes as
-follows: Let m and n be variables containing the two numbers. If n is 0, then stop: m contains the GCD. Otherwise, compute the remainder when m is divided by n. Copy n into m
+follows: Let m and n be variables containing the two numbers. If n is 0, then stop: m contains the GCD. Otherwise, compute the remainder when m is divided by n. Copy n into m
 and copy the remainder into n. Then repeat the process, starting with testing whether n is 0.
 */
 
+
+#include <stdio.h>
+
+int main(void) {
+
+  printf("Enter two integers: ");
+  int n, m;
+  scanf("%d %d", &n, &m);
+
+  while (n != 0) {
+    int remainder = m % n;
+    m = n;
+    n = remainder;
+  }
+
+  printf("Greatest common divisor: %d\n", m);
+
+  return 0;
+
+}

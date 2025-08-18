@@ -9,6 +9,19 @@ arrive at the next-to-last digit. (printf is capable of displaying numbers in ba
 see in Chapter 7, so there’s actually an easier way to write this program.)
 */
 
+
+/*
+Easy way:
+
+    printf("Enter a number between 0 and 32767: ");
+    int num;
+    scanf("%d", &num);
+
+    printf("In octal, your number is: %.5o\n", num);
+
+    return 0;
+*/
+
 #include <stdio.h>
 
 int main(void) {
@@ -36,14 +49,3 @@ int main(void) {
     return 0;
 }
 
-/*
-Easy way:
-
-    printf("Enter a number between 0 and 32767: ");
-    int num;
-    scanf("%d", &num);
-
-    printf("In octal, your number is: %.5o\n", num);
-
-    return 0;
-*/
