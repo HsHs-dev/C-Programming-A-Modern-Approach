@@ -7,4 +7,5 @@ The exercises and programming projects solutions of ***C Programming A Modern Ap
 - [x] Chapter 4: Experessions
 - [x] Chapter 5: Selection Statements
 - [x] Chpater 6: Loops
-- [ ] Chapter 7: Basic Types
+- [x] Chapter 7: Basic Types
+- [ ] Chapter 8: Arrays
